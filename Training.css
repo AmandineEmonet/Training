@@ -43,11 +43,13 @@ header{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr auto 1fr;
+    position: relative;
 }
 .picture{
     transform: scale(0.5);
     grid-row: 1;
     grid-column: 1 /span 3;
+    width: 100%;
 }
 
 .wrapper{
